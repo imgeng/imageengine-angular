@@ -1,0 +1,13 @@
+{
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../../dist/imageengine-angular",
+    "lib": {
+	"entryFile": "src/public-api.ts",
+	"umdModuleIds": {
+	    "imageengine-helpers": "imageengine-helpers"
+	}
+    },
+    "allowedNonPeerDependencies": [
+        "imageengine-helpers"
+    ]
+}
