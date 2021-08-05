@@ -46,7 +46,7 @@ It's available on npm. Install with:
 Import the ImageEngine component on your module file, and add it to `@NgModule` declaration as an import:
 
 ```js
-import { NgxImageengineModule } from "ngx-imageengine-image";`
+import { NgxImageengineModule } from "ngx-imageengine-image";
 
 @NgModule({
     declarations: [...],
@@ -66,7 +66,7 @@ Now use the component from anywhere on your app:
 	[derive_size]="true"
 	[path]="some_element.image_path"
 	[alt]="some_element.description"
-	[directives]="{fit: "cropbox", sharpness: 10, compression: 10, format: 'jpg'}"
+	[directives]="{fit: 'cropbox', sharpness: 10, compression: 10, format: 'jpg'}"
 	[lazy]="false"
 	host="https://your-image-engine-distribution-url.imgeng.io"
 	></lib-ngx-imageengine>
