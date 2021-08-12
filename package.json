@@ -1,0 +1,50 @@
+{
+    "name": "@imageengine/angular-workspace",
+    "version": "0.0.1",
+    "description": "Angular (12) workspace for ImageEngine components",
+    "homepage": "https://github.com/imgeng/imageengine-angular",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imgeng/imageengine-angular"
+    },
+    "author": "Micael Nussbaumer",
+    "license": "MIT",
+    "scripts": {
+	"ng": "ng",
+	"start": "ng serve",
+	"publish": "ng build && npm publish dist/ngx-imageengine",
+	"build": "ng build",
+	"watch": "ng build --watch --configuration development",
+	"test": "jest"
+    },
+    "private": true,
+    "dependencies": {
+	"@angular/animations": "~12.1.1",
+	"@angular/common": "~12.1.1",
+	"@angular/compiler": "~12.1.1",
+	"@angular/core": "~12.1.1",
+	"@angular/forms": "~12.1.1",
+	"@angular/platform-browser": "~12.1.1",
+	"@angular/platform-browser-dynamic": "~12.1.1",
+	"@angular/router": "~12.1.1",
+	"rxjs": "~6.6.0",
+	"tslib": "^2.2.0",
+	"zone.js": "~0.11.4"
+    },
+    "devDependencies": {
+	"@angular-devkit/build-angular": "~12.1.1",
+	"@angular/cli": "~12.1.1",
+	"@angular/compiler-cli": "~12.1.1",
+	"@types/jest": "^26.0.24",
+	"@types/node": "^12.11.1",
+	"jest": "^27.0.6",
+	"jest-preset-angular": "^9.0.4",
+	"ng-packagr": "^12.1.0",
+	"typescript": "~4.3.2"
+    },
+    "jest": {
+	"preset": "jest-preset-angular",
+	"setupFilesAfterEnv": ["<rootDir>/setup-jest.ts"],
+	"roots": ["<rootDir>/projects"]
+    }
+}
