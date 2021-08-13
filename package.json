@@ -12,7 +12,7 @@
     "scripts": {
 	"ng": "ng",
 	"start": "ng serve",
-	"publish": "ng build && npm publish dist/ngx-imageengine",
+	"publish": "ng build && npm publish ./dist/ngx-imageengine/ --access public",
 	"build": "ng build",
 	"watch": "ng build --watch --configuration development",
 	"test": "jest"

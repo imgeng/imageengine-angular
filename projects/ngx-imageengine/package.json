@@ -9,6 +9,16 @@
     },
     "author": "Micael Nussbaumer",
     "license": "MIT",
+    "keywords": [
+	"angular",
+	"imageengine",
+	"image engine",
+	"optimization",
+	"image",
+	"cdn",
+	"responsive",
+	"lazy loading"
+    ],
     "scripts": {
         "test": "jest"
     },
