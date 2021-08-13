@@ -1,6 +1,6 @@
 # NgxImageengine Workspace
 
-If you're looking for the `@imageengine/imageengine-angular` package readme, you can find it on the [projects folder](projects/ngx-imageengine/README.md).
+If you're looking for the `@imageengine/angular` package readme, you can find it on the [projects folder](projects/ngx-imageengine/README.md).
 
 ## Contents / Projects
 This workspace only contains, as of now, the ngx-imageengine component.

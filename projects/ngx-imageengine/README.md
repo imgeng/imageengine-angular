@@ -14,9 +14,9 @@ Besides that it has bindings to enable:
 - prevent unecessary refetches of images when using viewport size responsiveness or automatic dimension calculations, when the new sizes are smaller than the already fetched images
 
 
-It's available on npm as [@imageengine/imageengine-angular](https://www.npmjs.com/package/@imageengine/imageengine-angular). Install with:
+It's available on npm as [@imageengine/angular](https://www.npmjs.com/package/@imageengine/angular). Install with:
 
-`npm install @imageengine/imageengine-angular`
+`npm install @imageengine/angular`
 
 You can follow a [small tutorial to get you up and running](https://dev.to/mnussbaumer/image-optimization-in-angular)
 
@@ -59,7 +59,7 @@ You can follow a [small tutorial to get you up and running](https://dev.to/mnuss
 Import the ImageEngine component on your module file, and add it to `@NgModule` declaration as an import:
 
 ```js
-import { NgxImageengineModule } from "@imageengine/imageengine-angular";
+import { NgxImageengineModule } from "@imageengine/angular";
 
 @NgModule({
     declarations: [...],
