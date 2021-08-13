@@ -13,7 +13,7 @@ Run `ng build` from the workspace root directory to build the projects. The buil
 (remember to bump the version of the desired project on the project's `package.json` before building a new version)
 
 ## Publish
-After building the project(s) the builds will be stored in `dist/`. To publish to NPM navigate to the project folder (e.g: `cd dist/ngx-imageengine`) and from there do `npm publish`.
+After building the project(s) the builds will be stored in `dist/`. To publish to NPM navigate to the project folder (e.g: `cd dist/ngx-imageengine`) and from there do `npm publish --access public`.
 
 ## Running unit tests
 
