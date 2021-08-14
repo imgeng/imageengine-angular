@@ -196,7 +196,7 @@ export type IEFit =
     "cropbox"   ;
 ```
 
-These types are part of [@imageengine/imageengine-helper](https://www.npmjs.com/package/@imageengine/imageengine-helpers) which is a dependency of this package. You can access them to add types to your components by importing from `@imageengine/imageengine-helper`
+These types are part of [@imageengine/imageengine-helpers](https://www.npmjs.com/package/@imageengine/imageengine-helpers) which is a dependency of this package. You can access them to add types to your components by importing from `@imageengine/imageengine-helpers`
 
 #### path
 The path without the host part. Will raise if not set at instatiation.
@@ -253,7 +253,7 @@ And now you want to use a component:
 	[wrapper_classes]="['faq-thumbnail-img']"
 	[derive_size]="true"
 	[path]="some_element.image_path"
-	[directives]="{fit: "cropbox"}"
+	[directives]="{fit: 'cropbox'}"
 	host="https://your-image-engine-distribution-url.imgeng.io"
 	></ngx-imageengine>
 ```
