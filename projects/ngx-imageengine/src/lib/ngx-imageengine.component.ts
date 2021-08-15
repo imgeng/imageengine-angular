@@ -275,15 +275,21 @@ export class NgxImageengineComponent implements OnInit, AfterViewInit, OnChanges
 	    }
 	    final_directives.width = this.directive_width;
 	    final_directives.height = this.directive_height;
-	    if (this.device_pixel_ratio) {
-		final_directives.width = final_directives.width ? final_directives.width * window.devicePixelRatio : final_directives.width;
-		final_directives.height = final_directives.height ? final_directives.height * window.devicePixelRatio : final_directives.height;
+	}
+
+	if (this.device_pixel_ratio) {
+	    final_directives.width = final_directives.width ? final_directives.width * window.devicePixelRatio : final_directives.width;
+	    final_directives.height = final_directives.height ? final_directives.height * window.devicePixelRatio : final_directives.height;
+
+	    if (this.debug) {
+		console.log(`device_pixel_ratio enabled, applied a factor of ${window.devicePixelRatio}`);
 	    }
 	}
 
 	if (this.debug) {
 	    console.log(`final_directives object: ${JSON.stringify(final_directives)}`);
 	}
+	
 	this.final_src = build_IE_url(`${this.final_host}${final_path}`, final_directives, this.debug);
     }
 };
