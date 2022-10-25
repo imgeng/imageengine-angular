@@ -1,6 +1,6 @@
 {
     "name": "@imageengine/angular",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "An Angular (12) component for easing usage of ImageEngine's distribution CDN. Includes functionality to derive sizing directives directly from the elements real display sizes and ancillary functionality such as lazy loading of off-screen images, viewport dimensions change responsiveness (as in, refetch of assets files if the directives/sizing changes)",
     "homepage": "https://github.com/imgeng/imageengine-angular",
     "repository": {
@@ -10,14 +10,14 @@
     "author": "Micael Nussbaumer",
     "license": "MIT",
     "keywords": [
-	"angular",
-	"imageengine",
-	"image engine",
-	"optimization",
-	"image",
-	"cdn",
-	"responsive",
-	"lazy loading"
+        "angular",
+        "imageengine",
+        "image engine",
+        "optimization",
+        "image",
+        "cdn",
+        "responsive",
+        "lazy loading"
     ],
     "scripts": {
         "test": "jest"
@@ -27,7 +27,7 @@
         "@angular/core": "^12.1.1"
     },
     "dependencies": {
-        "@imageengine/imageengine-helpers": "^0.0.3",
+        "@imageengine/imageengine-helpers": "^0.1.1",
         "tslib": "^2.2.0"
     },
     "devDependencies": {
