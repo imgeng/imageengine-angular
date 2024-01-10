@@ -131,6 +131,26 @@ describe("NgxImageengineComponent", () => {
     );
   });
 
+  it("final src url should reflect the specified max_device_pixel_ratio", () => {
+    let rect = {
+      width: 300,
+      height: 200,
+      top: 100,
+      bottom: 100,
+      left: 100,
+      right: 100,
+    };
+    component.wrapper = new MockElementRef(element, rect);
+    component.directives = { max_device_pixel_ratio: 2.5 };
+    component.ngAfterViewInit();
+    fixture.detectChanges();
+
+    const img = fixture.nativeElement.querySelector(".ngx-ie-image");
+    expect(img.getAttribute("src")).toBe(
+      build_url(component, { max_device_pixel_ratio: 2.5 })
+    );
+  });
+
   it("should derive the width but not height (because it's bigger than height) when derive_size is true and the wrapper has dimensions and no fitting is defined", () => {
     let rect = {
       width: 300,
