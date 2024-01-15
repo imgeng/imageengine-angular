@@ -174,6 +174,8 @@ export interface IEDirectives {
     inline?: true;                 // convert image to dataURL
     keep_meta?: true;              // keep EXIF image data
     no_optimization?: true;        // don't apply IE optimizations
+    force_download?: true;
+    max_device_pixel_ratio: 2.1;   // 1-4 float
 };
 
 export type IEFormat =
@@ -186,7 +188,9 @@ export type IEFormat =
     "svg"  |
     "mp4"  |
     "jxr"  |
-    "avif" ;
+    "avif" |
+    "jxl" ;
+
 
 
 export type IEFit =
