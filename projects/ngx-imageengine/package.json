@@ -1,6 +1,6 @@
 {
     "name": "@imageengine/angular",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "An Angular (12) component for easing usage of ImageEngine's distribution CDN. Includes functionality to derive sizing directives directly from the elements real display sizes and ancillary functionality such as lazy loading of off-screen images, viewport dimensions change responsiveness (as in, refetch of assets files if the directives/sizing changes)",
     "homepage": "https://github.com/imgeng/imageengine-angular",
     "repository": {
