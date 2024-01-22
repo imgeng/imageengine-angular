@@ -18,7 +18,7 @@ It's available on npm as [@imageengine/angular](https://www.npmjs.com/package/@i
 
 `npm install @imageengine/angular`
 
-You can follow a [small tutorial to get you up and running](https://dev.to/mnussbaumer/getting-started-with-imageengine-and-angular-pk2)
+[Demo app on CodeSandbox](https://codesandbox.io/p/sandbox/imageengineangulardemo-kvyr98)
 
 ## Index:
 
