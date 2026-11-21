@@ -23,8 +23,8 @@
         "test": "jest"
     },
     "peerDependencies": {
-        "@angular/common": "^12.1.1",
-        "@angular/core": "^12.1.1"
+        "@angular/common": "^12.1.1 || ^22.0.0",
+        "@angular/core": "^12.1.1 || ^22.0.0"
     },
     "dependencies": {
         "@imageengine/imageengine-helpers": "^0.2.1",
